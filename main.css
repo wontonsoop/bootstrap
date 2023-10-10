@@ -1,0 +1,10 @@
+#hero {
+  background-image: url(../images/abstract.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#hero .d-flex{
+  height: 70vh;
+}
