@@ -55,14 +55,14 @@
               <!-- Use a display class for font for the h1 -->
               <h1 class="display-1">Main heading for page</h1>
               <!-- Use an appropriate class that styles the following text as lead text -->
-              <p>Some lead text or subtitle</p>
+              <p class="h3">Some lead text or subtitle</p>
             </div>
           </div>
         </div>
       </section>
 
       <!-- Add padding to the top and bottom of the section -->
-      <section id="intro" class="py-1">
+      <section id="intro" class="py-3">
         <!-- Use a container class that will set a max-width at each breakpoint -->
         <div class="container">
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
@@ -104,36 +104,76 @@
 
           <!-- Using the grid system, adjust the following so that the cards are 100% until the small breakpoint where it then divides to use 6 columns each, then again at the large breakpoint each card will span 3 columns each -->
           <!-- Add a gutter y using the value 4 -->
-          <div class="col-lg-6">
-            <div class="gy-4">
+          <div class="row gy-4">
+            <div class="p-4">
               <!-- Use the card component and set to use the dark bg with light text -->
               <!-- Update snippet to include the image being used in the screenshot -->
               <!-- Update button to use light button theme -->
 
             </div>
 
-            <div>
+            <div class="col-sm-6 col-lg-3">
               <!-- Card goes here -->
+              <div class="card bg-dark text-white">
+                <img src="images/abstract.jpg" class="card-img-top" alt="picture of a galaxy">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primarybg-light text-dark ">Go somewhere</a>
+                </div>
+              </div>
             </div>
 
-            <div>
+            <div class="col-sm-6 col-lg-3">
               <!-- Card goes here -->
+              <div class="card bg-dark text-white">
+                <img src="/images/abstract.jpg" class="card-img-top" alt="picture of a galaxy">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary bg-light text-dark">Read More</a>
+                </div>
+              </div>
             </div>
 
-            <div>
+
+            <div class="col-sm-6 col-lg-3">
               <!-- Card goes here -->
+              <div class="card bg-dark text-white">
+                <img src="/images/abstract.jpg" class="card-img-top" alt="picture of a galaxy">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary bg-light text-dark">Read More</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-sm-6 col-lg-3">
+              <!-- Card goes here -->
+              <div class="card bg-dark text-white">
+                <img src="images/abstract.jpg" class="card-img-top" alt="picture of a galaxy">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary bg-light text-dark">Read More</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
+      
+
       <!-- Add padding to the top and bottom of the section -->
       <!-- Set section background color to use the dark theme with light text -->
-      <section>
+      <section class="pt-auto p-4 text-white bg-dark">
         <!-- Use a container class that will set a max-width at each breakpoint -->
-        <div>
+        <div class="container">
           <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
-          <h2>Some heading</h2>
+          <h2 class="mx-4">Some heading</h2>
           <!-- Using the grid system, adjust the first image and text are 100% until the large breakpoint where it then divides into 2 evenly distributed columns and stays that way as the screen expands. -->
           <div>
             <div>
